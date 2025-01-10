@@ -76,7 +76,7 @@ const About = () => {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="rounded-full w-[5vw] h-[5vw] object-cover mr-4"
+                  className="rounded-full w-[100px] h-[100px] object-cover mr-4"
                 />
                 <div className='flex flex-col justify-between items-center'>
                   <h3 className="text-xl font-semibold mb-1">{member.name}</h3>

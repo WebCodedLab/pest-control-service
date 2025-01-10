@@ -69,7 +69,6 @@ const Home = () => {
                     <h1 className="text-5xl font-bold mb-6">Toronto's Premier Pest Control Service</h1>
                     <p className="text-xl mb-8 max-w-2xl mx-auto">We provide professional, efficient, and eco-friendly pest control services for homes and businesses in Toronto and the surrounding areas.</p>
                     <div className="flex justify-center gap-4">
-                        <Button to="contact" content="Get a Free Quote" />
                         <Button to="emergency" content="24/7 Emergency Service" />
                     </div>
                 </section>
@@ -158,7 +157,7 @@ const Home = () => {
                                 backgroundPosition: 'center',
                                 backgroundRepeat: 'no-repeat',
                                 color: 'white',
-                                height: '14vw',
+                                height: '200px'
                                 
                                 }}>
                                 <Bug className="w-8 h-8 mb-4 text-primary " />
@@ -229,7 +228,6 @@ const Home = () => {
                     <p className="mb-8 max-w-2xl mx-auto">Don't let pests control your life. Contact Toronto Pest Control today for a free consultation and take the first step towards a pest-free environment.</p>
                     <div className="flex justify-center gap-4">
                         <Button to="contact" content="Schedule Inspection" />
-                        <Button to="quote" content="Get Free Quote" variant="secondary" />
                     </div>
                 </section>
             </div>

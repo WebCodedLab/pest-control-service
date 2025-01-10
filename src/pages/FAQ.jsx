@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
-import { ChevronDown, ChevronUp } from 'lucide-react';
 import Button from '../components/Button';
 
 const faqs = [
@@ -53,7 +51,7 @@ const FAQ = () => {
                 description="Find answers to common questions about our pest control services in Toronto. Learn about our methods, safety practices, and more."
                 canonicalUrl="https://www.torontopestcontrol.com/faq"
             />
-            <div className="mx-auto max-w-screen-lg py-12">
+            <div className="mx-auto max-w-screen-lg py-12 px-5">
                 <h1 className="text-4xl font-bold text-center mb-12 animate-fadeIn">Frequently Asked Questions</h1>
                 <div id="accordion-collapse" data-accordion="collapse" className="max-w-3xl mx-auto">
                     {faqs.map((faq, index) => (

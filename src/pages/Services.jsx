@@ -59,7 +59,7 @@ const Services = () => {
         description="Discover our range of pest control services in Toronto, including residential, commercial, and eco-friendly solutions."
         canonicalUrl="https://www.torontopestcontrol.com/services"
       />
-       <div className="mx-auto max-w-screen-lg py-12">
+       <div className="mx-auto max-w-screen-lg py-12 px-5">
         <h1 className="text-4xl font-bold text-center mb-12 animate-fadeIn">Our Pest Control Services</h1>
         <div className="space-y-16 md:space-y-20">
           {services.map((service, index) => (
@@ -68,7 +68,7 @@ const Services = () => {
                 <img 
                   src={service.image} 
                   alt={service.title}
-                  className="rounded-lg shadow-lg w-full h-[15vw] object-cover"
+                  className="rounded-lg shadow-lg w-full h-[300px] object-cover"
                   />
               </div>
               <div className="w-full md:w-1/2 animate-slideIn delay-200">

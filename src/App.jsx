@@ -20,6 +20,7 @@ function App() {
       setIsLoading(true);
       const timer = setTimeout(() => {
           setIsLoading(false);
+          window.scrollTo(0, 0);
       }, 500);
 
       return () => clearTimeout(timer);

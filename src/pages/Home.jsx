@@ -96,9 +96,7 @@ const Home = () => {
                                     <span>Licensed, insured, and continuously trained professionals</span>
                                 </li>
                             </ul>
-                            <Link to="/services" className="btn-primary">
-                                Explore Our Services
-                            </Link>
+                            <Button to={'services'} content={'Explore Our Services'} />
                         </div>
                         <div className="relative h-96 animate-fadeIn">
                             <img
